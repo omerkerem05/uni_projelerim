@@ -20,16 +20,3 @@ int main(){
     {
         goto nokta;
     }
-
-    if (bolen==2)
-    {
-        printf("sayiniz asaldir.");
-    }
-
-    else
-    {
-        printf("sayiniz asal degildir.");
-    }
-    
-    return 0;
-}
