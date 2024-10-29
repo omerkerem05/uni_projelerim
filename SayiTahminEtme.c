@@ -14,7 +14,7 @@ int main(){
         printf("Sayi tahmininizi yapiniz: ");
         scanf("%d", &tahmin);
         if (tahmin > sayi){
-            printf("Yok ebesinin!\n");
+            printf("Yok deve!\n");
         }
         else if (tahmin < sayi){
             printf("Buyuk beyinler kucuk dusunmez.\n");
