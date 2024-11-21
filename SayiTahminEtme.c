@@ -1,32 +1,39 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <string.h>
 
-int main(){
+int main()
+{
     srand(time(0));
-    int sayi = (rand()%100) + 1;
+    int sayi = (rand() % 100) + 1;
     int hak = 5;
     int tahmin;
-    
-    nokta:
-    if(hak > 0){
+
+nokta:
+    if (hak > 0)
+    {
         hak--;
         printf("Sayi tahmininizi yapiniz: ");
         scanf("%d", &tahmin);
-        if (tahmin > sayi){
+        if (tahmin > sayi)
+        {
             printf("Yok deve!\n");
         }
-        else if (tahmin < sayi){
+        else if (tahmin < sayi)
+        {
             printf("Buyuk beyinler kucuk dusunmez.\n");
         }
-        else{
+        else
+        {
             printf("Kedi olali bi fare yakaladin!");
             return 0;
         }
     }
-    else{
+    else
+    {
         printf("O kadar zor degildi be reis, iste sayimiz: ");
-        printf("%d",sayi);
+        printf("%d", sayi);
         return 0;
     }
 
