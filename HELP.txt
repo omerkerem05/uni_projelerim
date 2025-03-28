@@ -1,4 +1,0 @@
-I cannot access my main account.
-When I try to log in to my account, which I remember the email, username and password for, 
-even though I entered the 2-step verification code correctly, it says it is incorrect, 
-both on my phone and on my computer.
